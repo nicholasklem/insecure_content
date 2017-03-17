@@ -50,7 +50,7 @@ if browser_log:
                     warningflag = True
 
     if insecureflag:
-        print "Browser log for " + url + "matches /ran insecure/. Insecure content on page. Alarm."
+        print "Browser log for " + url + " matches /ran insecure/. Insecure content on page. Alarm."
         print output
         sys.exit(2)
 
